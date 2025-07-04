@@ -29,7 +29,7 @@ function showWinner(player) {
   diceEl.classList.add('hidden');
   winnerEl.classList.add('winner');
   winnerEl.classList.remove('active');
-  alert(`🎉 Player ${player + 1} wins!`);
+  alert(` Player ${player + 1} wins!`);
   launchConfetti();
 }
 
